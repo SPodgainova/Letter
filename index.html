@@ -7,9 +7,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Template</title>
-  <!-- <meta name="color-scheme" content="light dark" />
-    <meta name="supported-color-schemes" content="light dark" /> -->
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
+  <title>Особняк для особенных событий</title>
   <style type="text/css">
     @import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,600,700&display=swap");
 
@@ -52,6 +52,30 @@
       .mobile-txt-padding {
         padding-left: 120px !important;
         padding-right: 120px !important;
+      }
+    }
+
+    /* Стили для тёмной темы Gmail */
+
+    @media only screen and (max-width:480px) {
+      u+.body .black-text {
+        background-image: linear-gradient(#000000, #000000) !important;
+        background-clip: text !important;
+        color: transparent !important;
+      }
+
+      div>u+.body .black-text {
+        background-image: none !important;
+        background-clip: inherit !important;
+        color: #000000 !important;
+      }
+
+      u+.body .white-bg {
+        background-image: linear-gradient(#ffffff, #ffffff) !important;
+      }
+
+      u+.body .lite-bg {
+        background-image: linear-gradient(#E1D5CA, #E1D5CA) !important;
       }
     }
 
@@ -101,22 +125,23 @@
     }
 
     /* :root {
-        color-scheme: light dark;
-        supported-color-schemes: light dark;
-      } */
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
 
-    /* @media (prefers-color-scheme: dark) {
-        table,
-        td {
-          background-color: #06080B !important;
-        }
+    @media (prefers-color-scheme: dark) {
 
-        h1,
-        h2,
-        p {
-          color: #ffffff !important;
-        }
-      } */
+      table,
+      td {
+        background-color: #ffffff !important;
+      }
+
+      h1,
+      h2,
+      p {
+        color: #000000 !important;
+      }
+    } */
   </style>
   <!--[if (gte mso 9) | (IE)]>
       <style type="text/css">
@@ -149,7 +174,7 @@
       <!-- Прехедер -->
       <div
         style="font-size: 0;line-height: 1px;mso-line-height-rule: exactly;display: none; max-width: 0; opacity: 0;overflow: hidden;mso-hide: all;">
-         Целый особняк для особенных событий
+        Целый особняк для особенных событий
       </div>
       <!-- Конец прехедера -->
 
@@ -226,10 +251,10 @@
                 <td align="center" style="
                       padding: 66px 40px 18px;
                       font-weight: 600;
-                      font-size: 18px; background-color: #ffffff;                     
+                      font-size: 18px;background-image:linear-gradient(#ffffff,#ffffff);                     
                     " class="mobile-col-padding">
-                  <p style="Margin: 10px 0 24px 0">Уважаемые коллеги!</p>
-                  <p style="Margin: 0">
+                  <p style="Margin: 10px 0 24px 0; color: #997149;">Уважаемые коллеги!</p>
+                  <p style="Margin: 0; color: #997149">
                     Мы&nbsp;рады представить вам DOM&nbsp;&mdash; уникальную
                     многофункциональную площадку с&nbsp;видом на&nbsp;Неву,
                     идеально подходящую для проведения мероприятий любого
@@ -282,8 +307,8 @@
                             <td>
                               <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
                                 <tr>
-                                  <td align="center" style="padding: 30px;background-color: #FFF8F1;">
-                                    <h2 style="font-weight: 600; font-size: 24px; margin: 0;">Почему стоит выбрать
+                                  <td align="center" style="padding: 30px">
+                                    <h2 style="font-weight: 600; font-size: 24px; margin: 0;color: #997149">Почему стоит выбрать
                                       нас?</р>
                                   </td>
                                 </tr>
@@ -329,7 +354,7 @@
                                           <table width="100%" border="0" cellpadding="0" cellspacing="0"
                                             role="presentation">
                                             <tr>
-                                              <td style="font-size: 16px">
+                                              <td style="font-size: 16px;color: #997149">
                                                 <p style="margin: 0 0 5px; font-weight: 700;">Уникальный
                                                   объект&nbsp;&mdash;</p>
                                                 <p style="margin: 0;">особняк XIX века в полное распоряжение
@@ -468,10 +493,10 @@
                         <![endif]-->
                       <td valign="center" align="center"
                         style="padding: 0px 50px 50px 50px; font-size: 0; background-color:transparent;">
-                        <p style="font-size: 24px;margin: 0;font-weight: 400;">Гибкие тарифы и&nbsp;специальные
+                        <p style="font-size: 24px;Margin: 10px 0 0 0;font-weight: 400;color: #997149">Гибкие тарифы и&nbsp;специальные
                           предложения для агентств
                         </p>
-                        <p style="font-size: 24px;font-weight: 600;margin: 0;">10% агентская комиссия</p>
+                        <p style="font-size: 24px;font-weight: 600;margin: 0;color: #997149">10% агентская комиссия</p>
                       </td>
                       <!--[if (gte mso 9)|(IE)]>
                           </td>
@@ -509,9 +534,9 @@
                           <td style="padding-top: 62px;padding-bottom: 184px; padding-left: 15px; padding-right: 15px;">
                         <![endif]-->
                       <td align="center" style="padding: 179px 140px 20px 140px;" class="mobile-txt-padding">
-                        <p style="font-size: 18px;font-weight: 600;margin:0;">Будем рады обсудить ваши проекты
+                        <p style="font-size: 18px;font-weight: 600;margin:0;color: #997149">Будем рады обсудить ваши проекты
                           и&nbsp;предложить индивидуальные условия!</p>
-                        <p style="font-size: 18px;font-weight: 400;margin:0;">Для бронирования или дополнительной
+                        <p style="font-size: 18px;font-weight: 400;margin:0;color: #997149">Для бронирования или дополнительной
                           информации свяжитесь с&nbsp;нами:</p>
                       </td>
                       <!--[if (gte mso 9)|(IE)]>
@@ -522,10 +547,10 @@
                       <td>
                         <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                           <tr>
-                            <td style="padding: 0 0 5px 0; background-color: #FFF8F1"
+                            <td style="padding: 0 0 5px 0"
                               style="font-size: 0;padding: 15px;">
                               <a href="tel:+79650020648" rel="noopener"
-                                style="font-size: 24px; font-weight: 600;color: #000000">
+                                style="font-size: 24px; font-weight: 600;color: #997149">
                                 +7 (911) 260-08-80
                               </a>
                             </td>
@@ -537,10 +562,10 @@
                       <td>
                         <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                           <tr>
-                            <td align="center" style="font-size: 0;background-color: #FFF8F1;">
+                            <td align="center" style="font-size: 0;">
                               <a href="https://api.whatsapp.com/send/?phone=79650020648&text=Здравствуйте,+интересует+аренда+особняка+DOM&type=phone_number&app_absent=0"
                                 rel="noopener"
-                                style="font-size: 24px; font-weight: 600; text-decoration: underline;color: #000000">
+                                style="font-size: 24px; font-weight: 600; text-decoration: underline;color: #997149">
                                 Whatsapp
                               </a>
                             </td>
@@ -553,9 +578,9 @@
                         <table align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
                           <tr>
                             <td padding="34px 0 0 0" align="center"
-                              style="padding: 34px 0 47px 0; background-color: #FFF8F1">
+                              style="padding: 34px 0 47px 0">
                               <a href="https://domeventspb.ru/" target="_blank" rel="noopener"
-                                style="font-size: 24px; font-weight:600; margin: 0; color: #000000">
+                                style="font-size: 24px; font-weight:600; margin: 0; color: #997149">
                                 domeventspb.ru
                               </a>
                             </td>
